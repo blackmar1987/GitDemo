@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Classes_suite" duration-ms="12358" started-at="2018-11-25T15:56:52Z" finished-at="2018-11-25T15:57:05Z">
+    <groups>
+    </groups>
+    <test name="Classes_regression" duration-ms="12358" started-at="2018-11-25T15:56:52Z" finished-at="2018-11-25T15:57:05Z">
+      <class name="Test_JIRA.Jira_Test">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:Test_JIRA.Jira_Test@531be3c5]" name="testApp" duration-ms="11401" started-at="2018-11-25T15:56:52Z" finished-at="2018-11-25T15:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test_JIRA.Jira_Test@531be3c5]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-25T15:57:05Z" finished-at="2018-11-25T15:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_JIRA.Jira_Test -->
+      <class name="Google_maps.Create_And_Delete_Test">
+        <test-method status="PASS" signature="getData()[pri:0, instance:Google_maps.Create_And_Delete_Test@52af6cff]" name="getData" is-config="true" duration-ms="7" started-at="2018-11-25T15:56:52Z" finished-at="2018-11-25T15:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData()[pri:0, instance:Test_JIRA.Jira_Test@531be3c5]" name="getData" is-config="true" duration-ms="0" started-at="2018-11-25T15:56:52Z" finished-at="2018-11-25T15:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:Google_maps.Create_And_Delete_Test@52af6cff]" name="Test" duration-ms="937" started-at="2018-11-25T15:57:04Z" finished-at="2018-11-25T15:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- Google_maps.Create_And_Delete_Test -->
+    </test> <!-- Classes_regression -->
+  </suite> <!-- Classes_suite -->
+</testng-results>

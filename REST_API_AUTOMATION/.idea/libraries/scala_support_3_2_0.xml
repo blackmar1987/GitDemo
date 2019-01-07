@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="scala-support-3.2.0">
+    <CLASSES>
+      <root url="jar://C:/Rest Assured/scala-support-3.2.0-dist/scala-support-3.2.0.jar!/" />
+      <root url="jar://C:/Rest Assured/scala-support-3.2.0-dist/scala-support-3.2.0-deps/activation-1.1.1.jar!/" />
+      <root url="jar://C:/Rest Assured/scala-support-3.2.0-dist/scala-support-3.2.0-deps/jaxb-api-2.2.12.jar!/" />
+      <root url="jar://C:/Rest Assured/scala-support-3.2.0-dist/scala-support-3.2.0-deps/jaxb-osgi-2.2.10.jar!/" />
+      <root url="jar://C:/Rest Assured/scala-support-3.2.0-dist/scala-support-3.2.0-deps/org.apache.sling.javax.activation-0.1.0.jar!/" />
+      <root url="jar://C:/Rest Assured/scala-support-3.2.0-dist/scala-support-3.2.0-deps/scala-library-2.12.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/Rest Assured/scala-support-3.2.0-dist/scala-support-3.2.0-deps/jaxb-osgi-2.2.10.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true" name="D:/JAVA+HTML/JAVA/REST_API_AUTOMATION/src/test/java/Google_maps/Create_And_Delete_Test.java">
+        <classes>
+            <class name="Google_maps.Create_And_Delete_Test">
+            <methods><include name="Test"/></methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="D:/JAVA+HTML/JAVA/REST_API_AUTOMATION/src/test/java/Google_maps/POST_Test.java">
+        <classes>
+            <class name="Google_maps.POST_Test">
+            <methods><include name="Test"/></methods>
+        </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="D:/JAVA+HTML/JAVA/REST_API_AUTOMATION/src/test/java/Test_JIRA/Jira_Test.java">
+    <classes>
+        <class name="Test_JIRA.Jira_Test">
+            <methods><include name="testApp"/></methods>
+        </class>
+    </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="D:/JAVA+HTML/JAVA/REST_API_AUTOMATION/src/test/java/Test_JIRA/Test_Class.java">
+        <classes>
+    <class name="Test_JIRA.Test_Class">
+        <methods><include name="testApp"/></methods>
+</class>
+</classes>
+</test>
+</suite>

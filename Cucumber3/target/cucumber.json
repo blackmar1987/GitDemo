@@ -1,0 +1,434 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Home page default login",
+        "description": "",
+        "id": "portal-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 90932054,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefination.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1598578,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User login into application with \"john\" and password \"4321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "john",
+                  "offset": 34
+                },
+                {
+                  "val": "4321",
+                  "offset": 54
+                }
+              ],
+              "location": "RegularExpression.user_login_into_application_with_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53476,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 89884,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Cards displayed are \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 21
+                }
+              ],
+              "location": "RegularExpression.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@PortalTest"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Home page default login",
+        "description": "",
+        "id": "portal-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 65423,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefination.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1212018,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User sign up with following details",
+            "match": {
+              "location": "dataTable.user_sign_up_with_following_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "jenny",
+                  "abcd",
+                  "john@abcd.com",
+                  "Australia",
+                  "3242353"
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118044,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 105245,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Cards displayed are \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 21
+                }
+              ],
+              "location": "RegularExpression.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@PortalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Portal Login",
+    "description": "",
+    "id": "portal-login",
+    "keyword": "Feature",
+    "uri": "Account.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 74809,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "validate the browser",
+            "match": {
+              "location": "PreRequestWithBackground.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Browser is triggered",
+            "match": {
+              "location": "PreRequestWithBackground.browser_is_triggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 307769,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "check if browser is started",
+            "match": {
+              "location": "PreRequestWithBackground.check_if_browser_is_started()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Home page default login",
+        "description": "",
+        "id": ";home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49493,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefination.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 125440,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User login into application with \"jin\" and password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jin",
+                  "offset": 34
+                },
+                {
+                  "val": "1234",
+                  "offset": 53
+                }
+              ],
+              "location": "RegularExpression.user_login_into_application_with_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39538,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76515,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "RegularExpression.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@PortalTest"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 54329,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "validate the browser",
+            "match": {
+              "location": "PreRequestWithBackground.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42951,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Browser is triggered",
+            "match": {
+              "location": "PreRequestWithBackground.browser_is_triggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39822,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "check if browser is started",
+            "match": {
+              "location": "PreRequestWithBackground.check_if_browser_is_started()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Home page default login",
+        "description": "",
+        "id": ";home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59164,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefination.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111218,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User login into application with \"john\" and password \"4321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "john",
+                  "offset": 34
+                },
+                {
+                  "val": "4321",
+                  "offset": 54
+                }
+              ],
+              "location": "RegularExpression.user_login_into_application_with_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39537,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71680,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Cards displayed are \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 21
+                }
+              ],
+              "location": "RegularExpression.cards_displayed_are(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@PortalTest"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "//Background keyword is the same as BeforeClass annotation - it will be runned before all of scenarios\r\n//2 scenarios \u003d 2 Background runned\r\n//but this is a prerequest for current feature file only\r\n//that means that Background scenarion can be started after some other scenarios from another feature files\r\n\r\n//if you want to run something before specified with tag tests - you should use @Before(\"@MobileTest\") annotation\r\n// --\u003e\u003e\u003e stepDefinations.hooks\r\n//YO CAN NOT USE Background and @Before together!!!",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "PreRequestWithBackground.feature"
+  }
+]
